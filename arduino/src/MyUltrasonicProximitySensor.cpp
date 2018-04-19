@@ -38,7 +38,7 @@ MyUltrasonicProximitySensor::postDeviceState()
     }
 }
 
-int
+void
 MyUltrasonicProximitySensor::updateDistanceMeasurement()
 {
     // Clears the trigPin
