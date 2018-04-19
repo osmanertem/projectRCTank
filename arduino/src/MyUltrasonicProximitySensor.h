@@ -18,7 +18,7 @@ public:
 
     virtual bool handleSerialPortMessage(String message);
     virtual void postDeviceState();
-    int updateDistanceMeasurement();
+    void updateDistanceMeasurement();
 
     int triggerPort = -1;
     int echoPort = -1;

@@ -10,6 +10,7 @@
 
 #include "MyDevice.h"
 #include "MyBinaryDevice.h"
+#include "MySensorDevice.h"
 #include "MyServo.h"
 #include "MyDCMotor.h"
 #include "MyUltrasonicProximitySensor.h"
